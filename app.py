@@ -14,7 +14,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],  # React dev server origin
+    allow_origins=["https://resume-parser-frontend-tau.vercel.app"],  # React dev server origin
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
